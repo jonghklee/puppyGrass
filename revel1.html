@@ -34,7 +34,10 @@
 
         <!--JS도 head태그 안에~!-->
         <!--script 태그 = JS -->
-        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <!-- autocomplete from jQuery Ui -->
+        <script src='{% static "js/jquery-1.11.3.min.js" %}'></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     	<script>
             $(function() {
                 areaSelectMaker("select[name=addressRegion]");
